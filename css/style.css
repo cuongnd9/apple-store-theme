@@ -29,6 +29,13 @@ a {
 	margin-bottom: 10px;
 }
 
+.banner:nth-child(5),
+.banner:nth-child(6),
+.banner:nth-child(7) {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
 .banner-content {
 	padding: 45px;
 }
@@ -79,8 +86,11 @@ a {
 .banner-1 {
 	float: left;
 	width: 50%;
-	margin-left: 10px;
-	margin-right: 10px;
+}
+
+.banner-2 {
+	float: right;
+	width: 50%;
 }
 
 .banner-1 .img-banner img ,
@@ -96,17 +106,12 @@ a {
 	color: #6bf;
 }
 
-.banner-2 {
-	float: right;
-	width: 50%;
-	margin-right: 10px;
-}
 /* end global*/
 
 /* header */
 header {
 	position: sticky;
-	z-index: 1;
+	z-index: 2;
 	top: 0;
 	width: 100%;
 }
@@ -247,18 +252,26 @@ header nav i.fa:hover {
 /* banner-giveback */
 .banner-giveback {
 	background-color: #fbfbfb;
-}
-.banner-giveback .img-banner {
-	height: 335px;
 	position: relative;
 	overflow: hidden;
+}
+
+.banner-giveback .banner-content {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+}
+
+.banner-giveback .img-banner {
+	height: 535px;
 }
 
 .banner-giveback .img-banner img {
 	width: 200%;
 	position: absolute;
 	left: -50%;
-	top: -20%;
+	top: 0;
 }
 
 .banner-giveback .links-banner a{
@@ -269,4 +282,83 @@ header nav i.fa:hover {
 	color: #0070c9;
 }
 /* end banner-giveback */
+
+/* banner-homepod */
+.banner-homepod {
+	background-color: #fbfbfb;
+	position: relative;
+	overflow: hidden;
+}
+
+.banner-homepod .banner-content {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+}
+
+.banner-homepod .img-banner {
+	height: 535px;
+	text-align: center;
+}
+
+.banner-homepod .img-banner img {
+	width: 60%;
+	position: absolute;
+	top: 34%;
+	left: 20%;
+}
+
+.banner-homepod .links-banner a{
+	color: #0070c9;
+}
+
+.banner-homepod .links-banner a i{
+	color: #0070c9;
+}
+/* end banner-homepod */
 /* end banner giveback & homepod */
+
+/* banner macbookpro & ipad */
+/* banner macbookpro */
+.banner-macbookpro {
+	background-image: url("https://www.apple.com/v/home/dx/images/promos/macbook-pro/macbook_pro_performance_large.jpg");
+	height: 580px;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+.banner-macbookpro h2,
+.banner-macbookpro h4 {
+	color: white;
+}
+
+.banner-macbookpro .banner-content img {
+	position: absolute;
+	bottom: 50px;
+}
+/* end banner macbookpro */
+
+/* banner ipad */
+.banner-ipad {
+	background-color: #fbfbfb;
+}
+.banner-ipad .img-banner {
+	height: 335px;
+}
+
+.banner-ipad .img-banner img {
+	width: 80%;
+	margin-top: 0;
+}
+
+.banner-ipad .links-banner a{
+	color: #0070c9;
+}
+
+.banner-ipad .links-banner a i{
+	color: #0070c9;
+}
+/* end banner ipad */
+/* end banner macbookpro & ipad */
