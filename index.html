@@ -12,9 +12,9 @@
 </head>
 <body>
   <!-- start header -->
-  <header>
+  <header id="sticky-nav">
     <div class="container">
-      <nav>
+      <nav id="nav-ul">
         <ul>
           <li><a href="https://github.com/ndc07"><i class="fa fa-apple"></i></a></li>
           <li><a href="https://github.com/ndc07">Mac</a></li>
@@ -321,6 +321,11 @@
     </div>
   </footer>
   <!-- end footer -->
-  <script type="text/javascript" scr="./js/index.js"></script>
+  <script type="text/javascript">
+    var nav = document.getElementById('sticky-nav');
+    window.onscroll = () => {
+      nav.style.opacity = (window.pageYOffset > 0) ? 0.9 : 1;
+    };
+  </script>
 </body>
 </html>

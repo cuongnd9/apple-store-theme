@@ -1,21 +1,15 @@
 # Apple Store
 
-Apple Store with HTML5, CSS3 and Javascript.
+Apple Store with HTML5 and CSS3.
 
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+<p align="center">
+<img src="https://github.com/cuongw/apple-store-theme/blob/master/img/ezgif.com-video-to-gif.gif" width="450"/>
+</p>
 
 ## Documents
 
-For help getting started with Flutter, view our online [documentation](https://flutter.io/).
-
-## Authors
-
-* **Nguyen Duy Cuong** - *Initial work* - [ndc07](https://github.com/ndc07)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+For help getting started , view our online [documentation](https://www.w3schools.com/).
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+MIT
